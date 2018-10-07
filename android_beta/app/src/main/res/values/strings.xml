@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">android_beta</string>
+    <string name="previousPage">back</string>
+    <string name="check">check_button</string>
+    <string name="new_ad_first_hint">Новая заявка. Шаг 1/2</string>
+    <string name="new_ad_second_hint">Новая заявка. Шаг 2/2</string>
+    <string name="first_page_name_hint">Введите название заявки</string>
+    <string name="first_page_description_hint">Введите описание заявки</string>
+    <string name="tags_hint">Введите тэги через запятую</string>
+    <string name="price_hint">Введите стоимость работы</string>
+    <string name="withoutPrice">не указана</string>
+    <string name="tags">тэги</string>
+    <string-array name="dorm_names">
+        <item>Горняк-1</item>
+        <item>Горняк-2</item>
+        <item>Металлург-1</item>
+        <item>Металлург-2</item>
+        <item>Металлург-3</item>
+        <item>ДСГ</item>
+        <item>Дом Комунны</item>
+    </string-array>
+</resources>
