@@ -10,11 +10,11 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cl_search"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="32dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/search_background"
         android:elevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,12 +26,15 @@
             android:id="@+id/et_searchField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
             android:background="@android:color/transparent"
 
             android:inputType="text"
             android:padding="8dp"
-            android:paddingStart="40dp" />
+            android:paddingStart="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -72,28 +75,26 @@
             android:id="@+id/ib_settings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_settings"
-            android:elevation="1dp"
+            android:layout_gravity="bottom|left"
             android:layout_margin="14dp"
-            android:layout_gravity="bottom|left"/>
+            android:background="@drawable/ic_settings"
+            android:elevation="1dp" />
 
         <ImageButton
             android:id="@+id/ib_more"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|right"
+            android:layout_margin="14dp"
             android:background="@drawable/ic_view_list"
-            android:elevation="1dp"
-            android:layout_margin="14dp"/>
+            android:elevation="1dp" />
 
         <com.google.android.material.bottomappbar.BottomAppBar
             android:id="@+id/bap_main_page"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            app:hideOnScroll="true"
-            app:fabAlignmentMode="center">
-        </com.google.android.material.bottomappbar.BottomAppBar>
+            app:fabAlignmentMode="center"></com.google.android.material.bottomappbar.BottomAppBar>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_main_page"
@@ -102,13 +103,12 @@
             android:layout_gravity="center|bottom"
             android:backgroundTint="@color/colorAddBackground"
             android:elevation="10dp"
-            android:src="@drawable/ic_add"
             android:onClick="addNewRequest"
+            android:src="@drawable/ic_add"
             app:fabSize="normal"
             app:layout_anchor="@id/bap_main_page">
 
         </com.google.android.material.floatingactionbutton.FloatingActionButton>
-
 
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

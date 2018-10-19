@@ -5,9 +5,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.macbook.android_beta.models.RequestModel
 import kotlinx.android.synthetic.main.recycler_view_item.view.*
 
-class RequestAdapter (private val arrWithInf: List<MainActivity.RequestModel>): RecyclerView.Adapter<RequestAdapter.ViewHolder>(){
+class RequestAdapter (private val arrWithInf: List<RequestModel>): RecyclerView.Adapter<RequestAdapter.ViewHolder>(){
     override fun getItemCount() = arrWithInf.size
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

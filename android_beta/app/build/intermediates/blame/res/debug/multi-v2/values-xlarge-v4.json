@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macbook/AndroidStudioProjects/android_beta/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "/Users/macbook/LodRequester/android_beta/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "/Users/macbook/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/ac3a03d52e3430794e4a1de936b07056/res/values-xlarge-v4/values-xlarge-v4.xml",

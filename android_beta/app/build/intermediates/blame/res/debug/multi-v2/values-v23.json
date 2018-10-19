@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macbook/AndroidStudioProjects/android_beta/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/macbook/LodRequester/android_beta/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/macbook/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/517d962cdbdf0c9399b41ddca8114f97/res/values-v23/values-v23.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macbook/AndroidStudioProjects/android_beta/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml",
+            "outputFile": "/Users/macbook/LodRequester/android_beta/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml",
             "map": [
                 {
                     "source": "/Users/macbook/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/c9d01da40e0fb1e57d61a699f91f0188/res/values-mn/values-mn.xml",

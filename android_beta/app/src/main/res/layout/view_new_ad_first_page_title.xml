@@ -19,12 +19,14 @@
         android:id="@+id/tv_new_ad_first_page_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_toEndOf="@+id/ib_back_to_main_page"
         android:text="@string/new_ad_first_hint"
-        android:textSize="18sp"
         android:textColor="@color/textColor"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/ib_back_to_main_page"
+        app:layout_constraintEnd_toEndOf="@+id/tv_go_to_next_ad_page"
         app:layout_constraintStart_toEndOf="@+id/ib_back_to_main_page"
         app:layout_constraintTop_toTopOf="@+id/ib_back_to_main_page" />
 
